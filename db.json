@@ -6,25 +6,7 @@
             "makerEmail": "john@example.com",
             "checkerEmail": "abc@example.com",
             "startDateTime": "2025-11-01T00:00:00+05:30",
-            "endDateTime": "2025-11-02T22:00:00+05:30",
-            "drones": [
-                {
-                    "id": "D12345",
-                    "name": "ABC ticket",
-                    "customEnv": [
-                        "UAT_ABC",
-                        "SIT_ABC"
-                    ]
-                },
-                {
-                    "id": "D4567",
-                    "name": "ABC new ticket",
-                    "customEnv": [
-                        "UAT_ABC_1",
-                        "SIT_ABC_2"
-                    ]
-                }
-            ]
+            "endDateTime": "2025-11-02T22:00:00+05:30"
         },
         {
             "id": "CR67890",
@@ -32,25 +14,45 @@
             "makerEmail": "jane@example.com",
             "checkerEmail": "def@example.com",
             "startDateTime": "2025-11-02T00:00:00+05:30",
-            "endDateTime": "2025-11-03T22:00:00+05:30",
-            "drones": [
-                {
-                    "id": "D9067",
-                    "name": "DEF ticket",
-                    "customEnv": [
-                        "UAT_DEF",
-                        "SIT_DEF"
-                    ]
-                },
-                {
-                    "id": "D3454",
-                    "name": "DEF new ticket",
-                    "customEnv": [
-                        "UAT_DEF_1",
-                        "SIT_DEF_2"
-                    ]
-                }
-            ]
+            "endDateTime": "2025-11-03T22:00:00+05:30"
+        }
+    ],
+    "drones": [
+        {
+            "id": "D12345",
+            "name": "ABC ticket",
+            "customEnv": [
+                "UAT_ABC",
+                "SIT_ABC"
+            ],
+            "crdataId": "CR12345"
+        },
+        {
+            "id": "D4567",
+            "name": "ABC new ticket",
+            "customEnv": [
+                "UAT_ABC_1",
+                "SIT_ABC_2"
+            ],
+            "crdataId": "CR12345"
+        },
+        {
+            "id": "D9067",
+            "name": "DEF ticket",
+            "customEnv": [
+                "UAT_DEF",
+                "SIT_DEF"
+            ],
+            "crdataId": "CR67890"
+        },
+        {
+            "id": "D3454",
+            "name": "DEF new ticket",
+            "customEnv": [
+                "UAT_DEF_1",
+                "SIT_DEF_2"
+            ],
+            "crdataId": "CR67890"
         }
     ]
 }
