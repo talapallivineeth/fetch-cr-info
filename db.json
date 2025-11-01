@@ -6,25 +6,7 @@
             "makerEmail": "john@example.com",
             "checkerEmail": "abc@example.com",
             "startDateTime": "2025-11-01 00:00:00 IST",
-            "endDateTime": "2025-11-02 22:00:00 IST",
-            "drones": [
-                {
-                    "id": "D12345",
-                    "name": "ABC ticket",
-                    "customEnv": [
-                        "UAT_ABC",
-                        "SIT_ABC"
-                    ]
-                },
-                {
-                    "id": "D4567",
-                    "name": "ABC new ticket",
-                    "customEnv": [
-                        "UAT_ABC_1",
-                        "SIT_ABC_2"
-                    ]
-                }
-            ]
+            "endDateTime": "2025-11-02 22:00:00 IST"
         },
         {
             "id": "CR67890",
@@ -32,25 +14,7 @@
             "makerEmail": "jane@example.com",
             "checkerEmail": "def@example.com",
             "startDateTime": "2025-11-02 00:00:00 IST",
-            "endDateTime": "2025-11-03 22:00:00 IST",
-            "drones": [
-                {
-                    "id": "D9067",
-                    "name": "DEF ticket",
-                    "customEnv": [
-                        "UAT_DEF",
-                        "SIT_DEF"
-                    ]
-                },
-                {
-                    "id": "D3454",
-                    "name": "DEF new ticket",
-                    "customEnv": [
-                        "UAT_DEF_1",
-                        "SIT_DEF_2"
-                    ]
-                }
-            ]
+            "endDateTime": "2025-11-03 22:00:00 IST"
         }
     ]
 }
