@@ -1,50 +1,56 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "role": "admin"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "role": "user"
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Laptop",
-      "price": 999.99,
-      "category": "Electronics",
-      "inStock": true
-    },
-    {
-      "id": 2,
-      "name": "Coffee Mug",
-      "price": 12.99,
-      "category": "Kitchen",
-      "inStock": true
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "productId": 1,
-      "quantity": 1,
-      "status": "delivered",
-      "orderDate": "2024-10-15"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "productId": 2,
-      "quantity": 3,
-      "status": "pending",
-      "orderDate": "2024-10-28"
-    }
-  ]
+    "crdata": [
+        {
+            "id": "CR12345",
+            "description": "Business enhacement for ABC",
+            "makerEmail": "john@example.com",
+            "checkerEmail": "abc@example.com",
+			"startDateTime":"2025-11-01 00:00:00 IST",
+			"endDateTime":"2025-11-02 22:00:00 IST"
+            "drones": [
+                {
+                    "id": "D12345",
+                    "name": "ABC ticket",
+                    "customEnv": [
+                        "UAT_ABC",
+                        "SIT_ABC"
+                    ]
+                },
+                {
+                    "id": "D4567",
+                    "name": "ABC new ticket",
+                    "customEnv": [
+                        "UAT_ABC_1",
+                        "SIT_ABC_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CR67890",
+            "description": "Business enhacement for DEF",
+            "makerEmail": "jane@example.com",
+            "checkerEmail": "def@example.com",
+			"startDateTime":"2025-11-02 00:00:00 IST",
+			"endDateTime":"2025-11-03 22:00:00 IST"
+            "drones": [
+                {
+                    "id": "D9067",
+                    "name": "DEF ticket",
+                    "customEnv": [
+                        "UAT_DEF",
+                        "SIT_DEF"
+                    ]
+                },
+                {
+                    "id": "D3454",
+                    "name": "DEF new ticket",
+                    "customEnv": [
+                        "UAT_DEF_1",
+                        "SIT_DEF_2"
+                    ]
+                }
+            ]
+        }
+    ]
 }
