@@ -6,7 +6,11 @@
             "makerEmail": "john@example.com",
             "checkerEmail": "abc@example.com",
             "startDateTime": "2025-11-01T00:00:00+05:30",
-            "endDateTime": "2025-11-02T22:00:00+05:30"
+            "endDateTime": "2025-11-02T22:00:00+05:30",
+			"servers": [
+                "abc1a",
+                "abc2a"
+            ]
         },
         {
             "id": "CR67890",
@@ -14,7 +18,13 @@
             "makerEmail": "jane@example.com",
             "checkerEmail": "def@example.com",
             "startDateTime": "2025-11-02T00:00:00+05:30",
-            "endDateTime": "2025-11-03T22:00:00+05:30"
+            "endDateTime": "2025-11-03T22:00:00+05:30",
+			"servers": [
+                "dfe1a",
+                "dfe2a",
+				"abc1a",
+                "abc2a"
+            ]
         }
     ],
     "drones": [
@@ -54,5 +64,41 @@
             ],
             "crdataId": "CR67890"
         }
-    ]
+    ],
+	"crPreChecks": [
+        {
+            "id": "1",
+            "preCheckStatus": "true",
+            "crdataId": "CR12345"
+        },
+		{
+            "id": "1",
+            "preCheckStatus": "false",
+            "crdataId": "CR67890"
+        }
+	],
+	"crPreChecks": [
+		{
+			"id": "1",
+			"preCheckStatus": "true",
+			"crdataId": "CR12345"
+		},
+		{
+			"id": "1",
+			"preCheckStatus": "false",
+			"crdataId": "CR67890"
+		}
+	],
+	"raiseBlockout": [
+		{
+			"id": "1",
+			"status": "true",
+			"crdataId": "CR12345"
+		},
+		{
+			"id": "1",
+			"status": "false",
+			"crdataId": "CR67890"
+		}
+	]	
 }
